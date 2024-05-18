@@ -1,13 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Quicksand';
+    
 }
 
 :root{
-    --clr : #cba2cb;
+    --clr : #C8A2C8;
 }
 
 body{
     background-color: var(--clr);
+}
+
+main #pembuka{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    color: rgb(255, 255, 255);
+}
+
+main #pesan-pesan{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 2px 10px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+}
+
+main .buttonFlower{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .buttonFlower a{
+    background-color: #be7ebe;
+    padding: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 500;
+    color: white;
 }
